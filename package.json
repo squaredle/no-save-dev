@@ -1,7 +1,7 @@
 {
   "name": "no-save-dev",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Support prod and test installations",
   "homepage": "https://github.com/squaredle/no-save-dev#readme",
   "bugs": {
     "url": "https://github.com/squaredle/no-save-dev/issues"
