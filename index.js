@@ -1,3 +1,4 @@
 exports.run = function(...args) {
-  console.log('no-save-dev:', args);
+  const re = /\b(--)?no-save-dev\b/i;
+  console.log('Using --no-save-dev:', args.some(arg => re.test(arg)));
 }
